@@ -32,7 +32,6 @@
 11. [Firewall Trends — How Rudras Stays Ahead](#-firewall-trends--how-rudras-stays-ahead)
 12. [Development Journey](#-development-journey)
 13. [Future Vision](#-future-vision)
-14. [License](#-license)
 
 ---
 
