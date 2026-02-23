@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-blue.svg)]()
 ![Status](https://img.shields.io/badge/Status-In%20Development-bluelight.svg)
 [![Version](https://img.shields.io/badge/Version-3.0%20Enterprise-blueviolet.svg)]()
-
+still platforms focus Linux,MAC,IOS,Android
 **A next-generation, self-healing firewall that thinks like an immune system.**
 
 *Last Updated: February 2026*
