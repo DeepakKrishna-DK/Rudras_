@@ -483,5 +483,5 @@ Security built on trust requires building it trustworthily.
 </div>
 
 ---
-still platforms focus Linux,MAC,IOS,Android
+still platforms focus Linux,MAC,IOS,Android <br>
 Comming Soon....
