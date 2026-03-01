@@ -221,18 +221,6 @@ Rudras ships with conservative, legally safe defaults. All behaviours that could
 | **Git** | ✅ Yes | Version control |
 | **Python 3.x** | ⚠️ Optional | VM test scripts only |
 
-```powershell
-# One-line setup on a fresh machine (run as Administrator)
-winget install Rustlang.Rustup -e
-winget install Microsoft.VisualStudio.2022.BuildTools -e
-rustup target add x86_64-pc-windows-msvc
-rustup component add clippy rustfmt
-
-# Build release binary
-cargo build --release
-# Output: target\release\rudras.exe  (~4.9 MB)
-```
-
 ---
 
 ## 🧬 The CyberImmune System
