@@ -322,27 +322,6 @@ Rudras was built systematically in structured phases, each verifying a crucial p
 
 ---
 
-## 📚 Engineering Research & Secrets
-
-Rudras operates with complete transparency regarding its architectural decisions, yet fiercely protects its internal bypass mechanisms designed to prevent "cockpit-lockouts."
-
-The `Research_Notes/` directory in the repository contains the official manifesto of the system:
-
-- 📄 **`1_Vision_and_Purpose.md`** — Outlines the failure of static firewalls and the necessity for zero-day immunity.
-- 📄 **`2_The_Problem_and_Solution.md`** — Maps physical hardware constraints (DoS Cryptography) to software solutions natively.
-- 📄 **`3_Core_Architecture_and_Logic.md`** — The exact structural flow from Layer 0 WFP dropping up to the distributed Swarm Gossip.
-- 📄 **`4_Usage_and_Maintenance_Guide.md`** — Administrator guide for Hot-Reloadable TOML overrides.
-- 📄 **`5_Team_Engineering_Pipeline.md`** — The developer guide detailing the internal packet pipeline loop, concurrency locks (`RwLock`), and mode divergences between Server and Client states.
-
-### 🤫 Classified Security Mechanisms (`Research_Notes/secrets/`)
-To prevent reverse-engineering of the biological algorithms, absolute execution overrides are stored strictly within the private `/secrets/` subdirectory.
-
-- 🔒 **`1_Proprietary_Algorithms.md`** — Details the `Immutable State Anchor` (Boiling Frog clamp limits) and the `Hardware Entropy` modulo logic.
-- 🔒 **`2_Anti_Tamper_Mechanisms.md`** — Contains the `Dual-Clock Drift Verification` and the hardcoded literal string that enables the physical God-Key system bypass.
-- 🔒 **`3_Cryptographic_Implementations.md`** — Maps the `Adaptive RSA Dropper` connection limits and the 24-hour overlap grace period code preventing KMS core deadlocks.
-
----
-
 ## 🔭 Future Vision & Platforms
 
 Rudras v3.0 establishes the strongest possible foundation for an autonomous firewall. The next frontier involves extending its native reach.
