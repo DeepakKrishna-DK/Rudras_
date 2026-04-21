@@ -17,7 +17,7 @@
 
 ## 📖 Official Documentation
 
-The entirety of Rudras’ architecture, philosophy, usage guides, operations, and threat model mechanisms have been structured into our official **[mdBook Documentation Hub](./docs/src/README.md)**.
+The entirety of Rudras’ architecture, philosophy, usage guides, operations, and threat model mechanisms have been structured into our official **[mdBook Documentation Hub](https://github.com/DeepakKrishna-DK/Rudras-Cognitive_Immunological_Defense_Firewall/blob/main/Rudras_%20The%20Firewall%20in%20Practice.pdf)**.
 
 To view the complete manual:
 
