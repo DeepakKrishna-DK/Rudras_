@@ -19,18 +19,6 @@
 
 The entirety of Rudras’ architecture, philosophy, usage guides, operations, and threat model mechanisms have been structured into our official **[mdBook Documentation Hub](https://github.com/DeepakKrishna-DK/Rudras-Cognitive_Immunological_Defense_Firewall/blob/main/Rudras_%20The%20Firewall%20in%20Practice.pdf)**.
 
-To view the complete manual:
-
-1. Navigate to the `docs/` directory.
-2. Build and launch the documentation server:
-
-    ```bash
-    cargo install mdbook
-    mdbook serve docs --open
-    ```
-
-3. Read the documentation directly in your browser with a beautiful, fully-searchable interface.
-
 ---
 
 ## 📑 Table of Contents
@@ -47,14 +35,13 @@ To view the complete manual:
 10. [📖 Official Documentation (mdBook Hub)](#-official-documentation-mdbook-hub)  
 11. [📂 Supplementary Documents, Videos, and Drive Resources](#-supplementary-documents-videos-and-drive-resources)  
 12. [🔧 Build Requirements](#-build-requirements)  
-13. [🚀 Quickstart & Deployment](#-quickstart--deployment)  
-14. [🧪 Testing & Validation](#-testing--validation)  
-15. [📊 Real-World Performance](#-real-world-performance)  
-16. [🚀 Firewall Trends — How Rudras Stays Ahead](#-firewall-trends--how-rudras-stays-ahead)  
-17. [📅 Development Journey](#-development-journey)  
-18. [🔭 Future Vision & Platforms](#-future-vision--platforms)  
-19. [🤝 Philosophy & Ethics](#-philosophy--ethics)  
-20. [🔒 License & Legal Notice](#-license--legal-notice)  
+13. [🧪 Testing & Validation](#-testing--validation)  
+14. [📊 Real-World Performance](#-real-world-performance)  
+15. [🚀 Firewall Trends — How Rudras Stays Ahead](#-firewall-trends--how-rudras-stays-ahead)  
+16. [📅 Development Journey](#-development-journey)  
+17. [🔭 Future Vision & Platforms](#-future-vision--platforms)  
+18. [🤝 Philosophy & Ethics](#-philosophy--ethics)  
+19. [🔒 License & Legal Notice](#-license--legal-notice)  
 
 ***
 
@@ -195,13 +182,13 @@ When launched without a `--mode` flag, Rudras presents an interactive selector:
 
 ```text
 ╔═══════════════════════════════════════════════════════════════════╗
-║              RUDRAS — SELECT DEPLOYMENT MODE                     ║
+║              RUDRAS — SELECT DEPLOYMENT MODE                      ║
 ╠═══════════════════════════════════════════════════════════════════╣
-║  1  CLIENT  — Endpoint/workstation (outbound C2 & exfil focus)   ║
-║  2  SERVER  — Gateway/perimeter    (inbound attack focus)        ║
-║  3  AUTO    — Auto-detect from open ports                        ║
+║  1  CLIENT  — Endpoint/workstation (outbound C2 & exfil focus)    ║
+║  2  SERVER  — Gateway/perimeter    (inbound attack focus)         ║
+║  3  AUTO    — Auto-detect from open ports                         ║
 ╠═══════════════════════════════════════════════════════════════════╣
-║  Tip: skip this prompt with --mode client / --mode server        ║
+║  Tip: skip this prompt with --mode client / --mode server         ║
 ╚═══════════════════════════════════════════════════════════════════╝
 ```
 
@@ -319,19 +306,7 @@ Administrators are strongly advised to consult legal and compliance teams before
 
 ## 📖 Official Documentation (mdBook Hub)
 
-The entire Rudras architecture, philosophy, operational guides, internals, and threat models are documented in the **mdBook Documentation Hub** under `docs/`.
-
-To build and view locally:
-
-```bash
-cargo install mdbook
-mdbook serve docs --open
-```
-
-This launches a searchable, browsable documentation site in your browser.
-
-- Entry point: `docs/src/README.md`  
-- Content includes: architecture diagrams, module breakdowns, deployment recipes, and troubleshooting.
+The entire Rudras architecture, philosophy, operational guides, internals, and threat models are documented in the copy of **mdBook Documentation Hub**.
 
 ***
 
@@ -340,7 +315,7 @@ This launches a searchable, browsable documentation site in your browser.
 Additional materials supporting Rudras (papers, manuals, videos, screenshots, and research artifacts) are available via GitHub and Google Drive.
 
 - **Google Drive companion folder (supplementary docs, videos, screenshots, slides):**  
-  `[Project-Rudras](https://drive.google.com/drive/folders/1TscWyB0lL0uBLBLADoedSXEgF79iIs2s?usp=sharing)`  
+  [Project-Rudras](https://drive.google.com/drive/folders/1TscWyB0lL0uBLBLADoedSXEgF79iIs2s?usp=sharing) 
 
 These resources include:
 
@@ -363,43 +338,6 @@ These resources include:
 | **Git** | ✅ Yes | Version control and dependency retrieval. |
 | **Python 3.x** | ⚠️ Optional | VM test harnesses and synthetic traffic scripts. |
 | **Node.js + npm** | ⚠️ Optional | Next.js SOC Dashboard frontend. |
-
-***
-
-## 🚀 Quickstart & Deployment
-
-> **Note:** Requires Administrator privileges on Windows for full WFP/Npcap operation.
-
-### 1. Build and Run the Native Engine
-
-```powershell
-# Clone the repository
-git clone https://github.com/DeepakKrishna-DK/Rudras-Cognitive_Immunological_Defense_Firewall.git
-cd Rudras-Cognitive_Immunological_Defense_Firewall
-
-# Build in release mode
-cargo build --release
-
-# Run Rudras with interactive mode selection
-.\target\release\rudras.exe
-```
-
-To skip the interactive prompt:
-
-```powershell
-.\target\release\rudras.exe --mode client
-.\target\release\rudras.exe --mode server
-.\target\release\rudras.exe --mode auto
-```
-
-### 2. Launch the SOC Dashboard (Next.js)
-
-```powershell
-cd Frontend
-npm install
-npm run dev
-# Dashboard at http://localhost:3000
-```
 
 ***
 
